@@ -21,3 +21,16 @@ echo "\n";
 if($today == 'Saturday' || $today == 'Sunday') {
     echo "Hey $name, enjoy the weekend. 😎";
 }
+
+echo "\n";
+
+if(($name != '' && $age >= 30) || ($today == 'Saturday' || $today == 'Sunday')) {
+    echo "Hey $name, enjoy the weekend. 😎";
+}
+
+// true && true => true
+// true && false => false
+// false && false => false
+// true || true => true
+// true || false => true
+// false || false => false
