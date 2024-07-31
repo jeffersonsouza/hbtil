@@ -13,7 +13,7 @@ if($name != '') {
 echo "\n";
 
 if($name != '' && $age >= 30) {
-    echo "Hey $name, you are getting... experient.";
+    echo "Hey $name, you are getting... experient. 🤗";
 }
 
 echo "\n";
